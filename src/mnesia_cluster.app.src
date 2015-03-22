@@ -11,7 +11,7 @@
   {mod, { mnesia_cluster_app, []}},
   {modules, []},
   {env, [
-        {table_definition_mod, {mnesia_cluster_table, test_defs, []}},
+        {table_definition_mod, {dl_cluster_table, table_defs, []}},
         {app_process, mnesia_cluster},
         {cluster_nodes, {[], disc}}, %% {TryNodes, NodeType}
         %{cluster_partition_handling, ignore}
